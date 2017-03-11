@@ -85,13 +85,22 @@
   <!-- endbuild -->
 
   <!-- build:js({.tmp,app}) scripts/scripts.js -->
-  <script src="app/scripts/psMenu/psMenu.module.js"></script>
-  <script src="app/scripts/psMenu/psDashboard.module.js"></script>
-  <script src="app/scripts/psMenu/psFramework.module.js"></script>
+  <script src="/scripts/psMenu/psMenu.module.js"></script>
+  <script src="/scripts/psDashboard/psDashboard.module.js"></script>
+  <script src="/scripts/psFramework/psFramework.module.js"></script>
+  <script src="/scripts/psFramework/psFramework.controller.js"></script>
+  <script src="/scripts/psFramework/psFramework.directive.js"></script>
   <script src="scripts/app.js"></script>
   <script src="scripts/controllers/main.js"></script>
   <script src="scripts/controllers/about.js"></script>
   <!-- endbuild -->
+
+  <ps-framework logo-title='Advantures' 
+                logo-subtitle='Administration Application' 
+                icon-file='./favicon.ico'>
+
+  </ps-framework>
+
 </body>
 
 </html>
