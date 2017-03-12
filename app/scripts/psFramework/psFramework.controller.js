@@ -6,7 +6,8 @@
     FrameworkController.$inject = ['$scope'];
 
     function FrameworkController() {
-        this.hello='hello'
+        var vm = this;
+        vm.hello='hello'
     }
 
 }());

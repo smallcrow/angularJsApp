@@ -7,6 +7,7 @@
 
 body {
   padding: 0;
+  background-color: grey;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -80,4 +81,9 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+/* application related css */
+.container-fluid {
+  padding: 0px;
 }

@@ -1,0 +1,36 @@
+.ps-menu-area {
+    width: 200px;
+    height: 100vh;
+    background-color: #333;
+    color: #ccc;
+    padding-top: 10px;
+}
+
+.ps-menu-area .btn:hover {
+    color: blue;
+}
+
+.ps-menu {
+    list-style-type: none;
+    vertical-align: top;
+    padding-left: 0;
+}
+
+.ps-selectable-item {
+    line-height: 3em;
+    cursor: pointer;
+}
+
+.ps-selectable-item:hover{
+    background-color: #555;
+}
+
+.ps-menu-icon {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.ps-menu-text {
+    display: inline-block;
+}

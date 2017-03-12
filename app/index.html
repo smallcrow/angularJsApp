@@ -3,13 +3,15 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Advantures</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width">
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
   <!-- build:css(.) styles/vendor.css -->
   <!-- bower:css -->
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.css" />
   <!-- endbower -->
   <!-- endbuild -->
   <!-- build:css(.tmp) styles/main.css -->
@@ -85,7 +87,16 @@
   <!-- endbuild -->
 
   <!-- build:js({.tmp,app}) scripts/scripts.js -->
+
+
+  <link rel="stylesheet" href="/scripts/psFramework/psFramework.css">
+  <link rel="stylesheet" href="/scripts/psMenu/psMenu.css">
+
+ 
   <script src="/scripts/psMenu/psMenu.module.js"></script>
+  <script src="/scripts/psMenu/psMenu.controller.js"></script>
+  <script src="/scripts/psMenu/psMenuItem.directive.js"></script>
+  <script src="/scripts/psMenu/psMenu.directive.js"></script>
   <script src="/scripts/psDashboard/psDashboard.module.js"></script>
   <script src="/scripts/psFramework/psFramework.module.js"></script>
   <script src="/scripts/psFramework/psFramework.controller.js"></script>
@@ -99,6 +110,11 @@
                 logo-subtitle='Administration Application' 
                 icon-file='./favicon.ico'>
 
+  <ps-menu>
+    <ps-menu-item label='Dashboards' icon='fa-dashboard'></ps-menu-item>
+    <ps-menu-item label='Locations' icon='fa-location-arrow'></ps-menu-item>
+    <ps-menu-item label='Guides' icon='fa-user'></ps-menu-item>
+  </ps-menu>
   </ps-framework>
 
 </body>

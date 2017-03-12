@@ -1,27 +1,51 @@
 .ps-title-bar {
-
+    background-color: white;
+    border-bottom: 2px solid black;
 }
 
 .ps-logo-area {
-
+    text-align: center;
 }
 
 .ps-logo-icon {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid grey;
+    width: 50px;
+    height:50px;
+    margin: 8px;
 
 }
 
 .ps-logo-title-area {
-
+   display: inline-block;
 }
 
 .ps-logo-title {
-
+    font-size: 22px;
+    color: black;
+    margin-top:6px;
 }
 
 .ps-logo-subtitle {
-
+    font-size: 13px;
+    color: black;
 }
 
 .ps-right-side-control {
+    line-height: 60px;
+}
 
+.ps-right-side-control > div {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .ps-right-side-control > div {
+        text-align: right;
+        margin-right: 10px;
+    }
+    .ps-logo-area {
+        text-align: left;
+    }
 }
