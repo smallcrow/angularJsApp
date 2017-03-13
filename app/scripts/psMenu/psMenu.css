@@ -34,3 +34,9 @@
 .ps-menu-text {
     display: inline-block;
 }
+
+.ps-menu-active-indicator {
+    float:right;
+    margin-top:13px;
+    margin-right:10px;
+}
