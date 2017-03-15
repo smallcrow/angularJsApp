@@ -7,6 +7,7 @@
 
     function MenuController($scope, $rootScope) {
         var vm = this;
+        vm.isMenuVisible = true;
         var activeElement = null;
 
         vm.setActiveElement = function(element) {
@@ -20,6 +21,10 @@
         vm.setRoute = function(route) {
             $rootScope.$broadcast('ps-menu-element-selected-event', {route: route})
         }
+
+        $scope.$on('ps-menu-button-selected-event', function(evt, data){
+            vm.isMenuVisible = data.isMenuVisible;
+        });
 
     }
 

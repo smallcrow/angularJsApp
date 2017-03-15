@@ -49,3 +49,10 @@
         text-align: left;
     }
 }
+
+.ps-menu-button-area {
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}

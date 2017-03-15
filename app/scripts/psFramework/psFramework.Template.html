@@ -6,6 +6,11 @@
                 <div class="ps-logo-title">{{frameworkCtrl.logoTitle}}</div>
                 <div clsss="ps-logo-subtitle">{{frameworkCtrl.logoSubtitle}}</div>
             </div>
+            <div ng-show="frameworkCtrl.isMenuButtonVisible" ng-click="frameworkCtrl.showMenuButton()" class="ps-menu-button-area">
+                <button class="btn ps-nav-button">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
         </div>
         <div class="ps-right-side-control col-sm-6">
             <div>
